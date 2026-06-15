@@ -1,0 +1,139 @@
+.price-cont {
+    width: 99vw;
+    height: 185vh;
+}
+
+.price-cont>span {
+    color: #CF711F;
+    font-weight: 700;
+    display: inline-block;
+    margin: 6rem 0 0 10rem;
+}
+
+.price-cont>h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #333333;
+    margin-left: 10rem;
+}
+
+.card-cont {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.p-card {
+    width: 27vw;
+    height: 78vh;
+    border-radius: 12px;
+    position: relative;
+    
+}
+.starter-card{
+    border: 2px solid #FDE9E3;
+}
+.complete-card {
+    overflow: hidden;
+    background-color: #FDF2E9;
+}
+
+.best-value {
+    background-color: #FFD43B;
+    transform: rotate(45deg);
+    position: absolute;
+    padding: 7px 42px;
+    font-weight: 900;
+    right: -2rem;
+    top: 1.7rem;
+    font-size: .8rem;
+}
+.plan-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.plan-name{
+    color: #CF711F;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.plan-price{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #333333;
+}
+.plan-price>span{
+    font-size: 2rem;
+    margin-right: .8rem;
+}
+.plan-text{
+    color: #6F6F6F;
+    font-size: 1.03rem;
+}
+.p-list{
+    color: #555555;
+    margin-top: 3.5rem;
+   
+}
+.cl span{
+    font-weight: 500;
+}
+.cl span strong{
+    color: #333333;
+}
+.p-list li{
+    margin-left: 3.8rem;
+}
+.p-btn{
+    width: 14rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    height: 3.3rem;
+    margin: 3rem 6rem;
+}
+.p-foot-text{
+    text-align: center;
+    margin-top: 4rem;
+    color: #555555;
+    font-weight: 500;
+    font-size: 1.03rem;
+}
+.price-footer{
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-cont{
+    margin-top: 6rem;
+    width: 17vw;
+    height: 32vh;
+}
+.foot-cl{
+    background-color: #FDF2E9;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.foot-cont h1{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #333333;
+}
+.foot-cont p{
+    font-size: 1.1rem;
+    line-height: 2;
+    width: 76%;
+    color: #555555;
+}
+.hp{
+    width: 90% !important;
+}

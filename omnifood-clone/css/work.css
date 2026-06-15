@@ -1,0 +1,239 @@
+.work-container {
+    width: 99vw;
+    height: 365vh;
+    font-family: "Martel Sans", sans-serif;
+
+}
+
+.work-container h3 {
+
+    font-size: 1rem;
+    margin-top: 2.2rem;
+}
+
+.work-heading {
+    text-align: center;
+    color: #8C8A88;
+}
+
+.head-logo {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.head-logo img {
+    width: 150px;
+    height: 35px;
+    filter: grayscale(100%) brightness(60%) opacity(0.6);
+}
+
+.steps {
+    width: 74vw;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+.steps>span {
+    color: #CF711F;
+}
+
+.steps>h1 {
+    font-weight: 900;
+    color: #333333;
+    font-size: 40px;
+}
+
+.outter-img-cl {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF2E9;
+
+
+}
+
+.step1-img-con {
+    margin-right: 8rem;
+}
+
+.step2-img-con {
+    margin-left: 8rem;
+}
+
+.inner-img-cl {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #FAE5D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-img-cl img {
+    width: 80%;
+}
+
+.step1 {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {
+    width: 40vw;
+    color: #555555;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.step-no {
+    font-size: 80px;
+    font-weight: 900;
+    color: #DDDDDD;
+}
+
+.step-text>h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #333333;
+}
+
+/* Footer of work section */
+.w-sec-fo>h3 {
+    color: #CF711F;
+    text-align: center;
+    margin-top: 15.2rem;
+}
+
+.w-sec-fo>h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #242424;
+    text-align: center;
+}
+
+.f-card-container {
+    height: 78vh;
+    margin-top: 5rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.f-card-container span{
+    font-weight: 900;
+    
+}
+.f-card-container p {
+    font-size: 1.1rem;
+    color: #242424e0;
+}
+.card {
+    width: 23%;
+    gap: 2rem;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.text-card {
+    width: 23%;
+    height: 70%;
+}
+.meal-img-card{
+    width: 100%;
+    height: 50%;
+}
+.meal-img-card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.meal-icons-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-left: 2.5rem;
+}
+.meal-icon{
+    width: 24px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.s{
+   
+    font-size: 12px;
+    padding: 0 11px;
+    font-weight: 700 !important;
+    border-radius: 12px;
+    margin-left: 2rem;
+}
+.s1{
+     background-color: rgb(81, 207, 102);
+}
+.s2{
+    background-color: rgb(148, 216, 45);
+
+}
+.s3{
+    background-color: rgb(255, 212, 59);
+    margin-left: 0;
+}
+.card h1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 2.5rem;
+}
+.card1, .card2{
+    transition: transform 0.45s ease-out;
+}
+.card1:hover, .card2:hover{
+    transform: translateY(-8px);
+}
+
+.deit h3{
+    font-size: 28px;
+    font-weight: 900;
+    color: #242424;
+    margin-top: 0;
+}
+.list{
+    color: #242424;
+    list-style: none;
+}
+.list .list-item img{
+    width: 30px;
+}
+.list-item span{
+    font-weight: 300;
+    font-size: 17px;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.all-recipes a {
+    text-decoration: none;
+    border-bottom: 1px solid #CF711F;
+    color: #CF711F;
+    font-size: 17px;
+    font-weight: 500;
+}
+.all-recipes {
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+}

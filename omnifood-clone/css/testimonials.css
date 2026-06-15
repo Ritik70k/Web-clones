@@ -1,0 +1,88 @@
+.testimonials{
+    width: 99vw;
+    height: 135vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDF2E9;
+}
+.t-right{
+    width: 48vw;
+    height: 125vh;
+    margin-right: 1rem;
+}
+.t-left{
+    width: 40vw;
+    height: 80vh;
+    margin-left: 6.5rem;
+    margin-top: -12rem;
+}
+.t-left>span{
+    color: #CF711F;
+    font-weight: 900;
+}
+.t-left>h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 1rem;
+    color: #333333;
+}
+.cust-grid{
+    width: 17vw;
+    height: 40vh;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.cust-review{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+}
+.mt{
+
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+.bt{
+    margin-bottom: .5rem;
+}
+.mt-b{
+    margin-top: 6rem;
+}
+.cust-grid img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+.cust-review p{
+    margin-bottom: 1.5rem;
+    color: #555555;
+}
+.cust-review span{
+    color: #6F6F6F;
+}
+.gallery-img{
+    width: 220px;
+    height: 215px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.gallery-img img{
+    width: 220px;
+    height: 215px;
+    transition: transform .35s ease-in-out;
+}
+.gallery-img img:hover{
+    transform: scale(1.09);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: repeat(3, 215px);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: end;
+    margin-right: .5rem;
+}
