@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Martel+Sans:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+
+
+}
+
+#hero {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+}
+
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 2.5vw;
+    letter-spacing: -.01rem;
+}
+
+nav span {
+    font-weight: 900;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.h-heading {
+    color: #fff;
+    padding: 5rem 2.4rem;
+    text-transform: uppercase;
+    line-height: 145px;
+
+}
+
+.h-heading h1 {
+    font-size: 11vw;
+    font-weight: 900;
+    opacity: .6;
+}
+
+.lower-heading {
+    margin-left: 10.5rem;
+    width: fit-content;
+}
+
+.lower-heading h4 {
+    text-align: end;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.mid-heading {
+    color: #fff;
+    text-align: end;
+    padding: 1vw 3vw;
+    text-transform: uppercase;
+    font-size: 1.02rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.hero-footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.hero-footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: -.01rem;
+}
+
+.arrow-cl {
+    display: flex;
+    gap: .3rem;
+}
+
+.cl {
+    width: 27px;
+    height: 27px;
+    background-color: #888;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    padding: 210px 150px 0 0;
+}
+
+.elem {
+    width: 100%;
+    border-top: 2px solid #888;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.elem h1 {
+    font-size: 7.5rem;
+    opacity: .7;
+    font-weight: 900;
+    padding: 3vw 3vw;
+}
+
+.elem span {
+    font-size: 13px;
+}
+
+.hudu-b {
+    border-bottom: 2px solid #888;
+}
+
+.elem img {
+    display: none;
+    height: 140%;
+    position: absolute;
+    z-index: 999;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    padding: 3vw 10vw 10vw 48vw;
+}
+
+.about img {
+    width: 10vw;
+}
+
+.text-about {
+    color: white;
+}
+
+.text-about span {
+    text-transform: uppercase;
+    opacity: .6;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.text-about p {
+    padding: .7rem 0;
+    font-size: 17px;
+    opacity: .9;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: .6rem 1.2rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.about-footer {
+    width: 100%;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: -.01rem;
+    padding: 1vw 2vw;
+}
+
+.about-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-footer span {
+    color: #888;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw 3vw 2vw;
+}
+
+.copyright {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 25px;
+}
+
+footer .copyright span {
+    color: white;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cursor-dot {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 999999;
+}
